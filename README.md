@@ -1,14 +1,11 @@
 ### angular入门一之环境安装及项目创建
 
-
-
 #### 1.安装node.js
 
 - 下载，安装，在终端测试安装是否成功：**node -v**(查看nodejs版本)    **npm -v**(查看npm版本)
 
 - 下载地址：https://nodejs.org/en/download
 
-  
 
 #### 2.安装angular cli
 

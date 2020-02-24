@@ -1,0 +1,39 @@
+ul{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  overflow-x: auto; // 如果溢出框，则应该提供滚动机制。
+  /**
+    使用具有回弹效果的滚动,当手指从触摸屏上移开，
+    内容会继续保持一段时间的滚动效果。
+    继续滚动的速度和持续的时间和滚动手势的强烈程度成正比
+   */
+  -webkit-overflow-scrolling: touch;
+
+  li {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0 10px;
+    white-space: nowrap;
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .indicator{
+      height: 2px;
+      width: 2rem;
+      margin-top: 2px;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
